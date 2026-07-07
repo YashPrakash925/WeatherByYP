@@ -13,6 +13,7 @@ weatherForm.addEventListener("submit", async event=>{
         }
         catch(error){
             console.error(error);
+            dsiplayError(error.message);
         }
     }
     else{
